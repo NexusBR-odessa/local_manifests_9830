@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="EXT" fetch="https://github.com/ExtremeXT"/>
+
+<!--Trees-->
+  <project path="device/samsung/x1s"
+           name="android_device_samsung_x1s"
+           remote="EXT"
+           revision="lineage-23.0" />
+           
+  <project path="vendor/samsung/x1s"
+           name="proprietary_vendor_samsung_x1s"
+           remote="EXT"
+           revision="lineage-23.0" />
+           
+  <project path="kernel/samsung/x1s"
+           name="android_kernel_samsung_exynos990"
+           remote="EXT"
+           revision="main" />
