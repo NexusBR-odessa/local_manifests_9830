@@ -33,7 +33,7 @@
            name="android_hardware_samsung"
            remote="LOS"
            revision="lineage-23.2" />
-  
+
   <project path="hardware/samsung_slsi-linaro/config"
            name="android_hardware_samsung_slsi-linaro_config"
            remote="LOS"
