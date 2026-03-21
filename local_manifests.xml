@@ -55,7 +55,7 @@
            revision="lineage-23.2" />
 
   <project path="hardware/samsung_slsi-linaro/interface"
-           name="android_hardware_samsung_slsi-linaro_interface"
+           name="android_hardware_samsung_slsi-linaro_interfaces"
            remote="LOS"
            revision="lineage-23.2" />
 
