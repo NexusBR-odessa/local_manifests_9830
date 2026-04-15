@@ -2,16 +2,17 @@
 <manifest>
   <remote name="LOS" fetch="https://github.com/LineageOS"/>
   <remote name="MUP" fetch="https://github.com/TheMuppets"/>
+  <remote name="NEX" fetch="https://github.com/NexusBR-odessa"/>
   
 <!--Trees-->
-  <project path="device/samsung/x1s"
-           name="android_device_samsung_x1s"
-           remote="LOS"
+  <project path="device/samsung/c1s"
+           name="android_device_samsung_c1s"
+           remote="NEX"
            revision="lineage-23.2" />
            
-  <project path="vendor/samsung/x1s"
-           name="proprietary_vendor_samsung_x1s"
-           remote="MUP"
+  <project path="vendor/samsung/c1s"
+           name="proprietary_vendor_samsung_c1s"
+           remote="NEX"
            revision="lineage-23.2" />
 
   <project path="vendor/samsung/universal9830-common"
@@ -21,12 +22,12 @@
            
   <project path="kernel/samsung/universal9830"
            name="android_kernel_samsung_universal9830"
-           remote="LOS"
+           remote="NEX"
            revision="lineage-23.2" />
 
   <project path="device/samsung/universal9830-common"
            name="android_device_samsung_universal9830-common"
-           remote="LOS"
+           remote="NEX"
            revision="lineage-23.2" /> 
 
   <project path="hardware/samsung_slsi-linaro/config"
