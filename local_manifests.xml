@@ -2,7 +2,7 @@
 <manifest>
   <remote name="LOS" fetch="https://github.com/LineageOS"/>
   <remote name="MUP" fetch="https://github.com/TheMuppets"/>
-  <remote name="NEX" fetch="https://github.com/NexusBR-odessa"/>
+  <remote name="NEX" fetch="https://github.com/miguelbarretoo"/>
   
 <!--Trees-->
   <project path="device/samsung/c1s"
