@@ -2,11 +2,12 @@
 <manifest>
   <remote name="LOS" fetch="https://github.com/LineageOS"/>
   <remote name="MUP" fetch="https://github.com/TheMuppets"/>
+  <remote name="MB" fetch="https://github.com/miguelbarretoo"/>
   
 <!--Trees-->
   <project path="device/samsung/x1s"
            name="android_device_samsung_x1s"
-           remote="LOS"
+           remote="MB"
            revision="lineage-23.2" />
            
   <project path="vendor/samsung/x1s"
@@ -26,8 +27,8 @@
 
   <project path="device/samsung/universal9830-common"
            name="android_device_samsung_universal9830-common"
-           remote="LOS"
-           revision="lineage-23.2" /> 
+           remote="MB"
+           revision="mistOS-16.2" /> 
 
   <project path="hardware/samsung_slsi-linaro/config"
            name="android_hardware_samsung_slsi-linaro_config"
