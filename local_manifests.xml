@@ -1,67 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="LOS" fetch="https://github.com/LineageOS"/>
-  <remote name="MUP" fetch="https://github.com/TheMuppets"/>
   <remote name="MB" fetch="https://github.com/miguelbarretoo"/>
   
 <!--Trees-->
-  <project path="device/samsung/x1s"
-           name="android_device_samsung_x1s"
+  <project path="device/samsung/exynos990"
+           name="android_device_samsung_exynos990"
            remote="MB"
-           revision="lineage-23.2" />
-           
-  <project path="vendor/samsung/x1s"
-           name="proprietary_vendor_samsung_x1s"
-           remote="MUP"
-           revision="lineage-23.2" />
-
-  <project path="vendor/samsung/universal9830-common"
-           name="proprietary_vendor_samsung_universal9830-common"
-           remote="MUP"
-           revision="lineage-23.2" />
-           
-  <project path="kernel/samsung/universal9830"
-           name="android_kernel_samsung_universal9830"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="device/samsung/universal9830-common"
-           name="android_device_samsung_universal9830-common"
-           remote="MB"
-           revision="mistOS-16.2" /> 
-
-  <project path="hardware/samsung_slsi-linaro/config"
-           name="android_hardware_samsung_slsi-linaro_config"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="hardware/samsung_slsi-linaro/graphics"
-           name="android_hardware_samsung_slsi-linaro_graphics"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="hardware/samsung_slsi-linaro/exynos"
-           name="android_hardware_samsung_slsi-linaro_exynos"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="hardware/samsung_slsi-linaro/exynos5"
-           name="android_hardware_samsung_slsi-linaro_exynos5"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="hardware/samsung_slsi-linaro/interfaces"
-           name="android_hardware_samsung_slsi-linaro_interfaces"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="hardware/samsung_slsi-linaro/openmax"
-           name="android_hardware_samsung_slsi-linaro_openmax"
-           remote="LOS"
-           revision="lineage-23.2" />
-
-  <project path="device/samsung_slsi/sepolicy"
-           name="android_device_samsung_slsi_sepolicy"
-           remote="LOS"
-           revision="lineage-23.2" />
+           revision="android-12.1" />
 </manifest>
